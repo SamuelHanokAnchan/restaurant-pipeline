@@ -1,0 +1,24 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+.venv/
+env/
+
+# Ignore macOS files
+.DS_Store
+
+# Ignore Prefect temp files
+.prefect/
+
+# Ignore data outputs
+data/bronze/
+data/silver/
+data/gold/
+
+# Keep raw files but ignore huge JSONL data (optional)
+data/support_tickets.jsonl
+
+# Ignore plot images (optional)
+*.png
